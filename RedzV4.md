@@ -9,7 +9,7 @@ local Player = Players.LocalPlayer
 
 local redzLib = {
   info = {
-    Version = "v1.2.2",
+    Version = "v1.0.0",
     PlaceName = MarketplaceService:GetProductInfo(game.PlaceId).Name
   },
   Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Themes.lua"))(),
@@ -18,7 +18,7 @@ local redzLib = {
     Theme = "Default",
     UISize = {550, 310},
     ScrollSize = 160,
-    TransparencyHub = 0.1
+    TransparencyHub = 1.0
   },
   Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Icons.lua"))() --[[
     I found this source on fluent but I don't know who created it
